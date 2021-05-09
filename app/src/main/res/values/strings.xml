@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">Mitahara</string>
+    <string name="title_activity_signin">signin</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="welcome_back">Welcome Back,</string>
+    <string name="forgotpass">Forgot Password?</string>
+    <string name="muted_new_user">I am a new user,</string>
+    <string name="action_sign_up"><i>Sign Up</i></string>
 </resources>
