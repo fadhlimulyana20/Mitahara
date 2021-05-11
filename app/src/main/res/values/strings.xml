@@ -13,4 +13,13 @@
     <string name="forgotpass">Forgot Password?</string>
     <string name="muted_new_user">I am a new user,</string>
     <string name="action_sign_up"><i>Sign Up</i></string>
+    <string name="reset_pass">Reset Password</string>
+    <string name="reset_pass_desc">Enter the email address associated<br></br>with your account</string>
+    <string name="continue_text">Continue</string>
+    <string name="reset_verif">Verify</string>
+    <string name="reset_verif_title">Verification</string>
+    <string name="reset_verif_desc">Enter the verification code we just<br>sent you on your email address</br></string>
+    <string name="create_new_pass">Create New Password</string>
+    <string name="create_new_pass_desc">Your password must be different from<br>previously used password</br></string>
+    <string name="confirm_password">Confirm Password</string>
 </resources>
