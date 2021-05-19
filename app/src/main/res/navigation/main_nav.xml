@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/workOutFragment"
+        android:name="com.kelompok5.mitahara.WorkOutFragment"
+        android:label="fragment_work_out"
+        tools:layout="@layout/fragment_work_out" />
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.kelompok5.mitahara.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/dietPlanFragment"
+        android:name="com.kelompok5.mitahara.DietPlanFragment"
+        android:label="fragment_diet_plan"
+        tools:layout="@layout/fragment_diet_plan" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.kelompok5.mitahara.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>
