@@ -24,4 +24,12 @@
     <string name="confirm_password">Confirm Password</string>
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="art1_text1">A healthful diet means eating nutrient dense foods, in the
+        <br>right quantities, from all the major food groups. People</br>
+        <br>often think of “a diet” as a specific weight loss plan, but</br>
+        <br>diet simply refers to the types and amounts of food a</br>
+        <br>person eats.</br></string>
+    <string name="art1_title">HOW TO FOLLOW A HEALTHFUL DIET</string>
+    <string name="art1_SubTitle">Food and Beverage</string>
+    <string name="art1_author">Luthfiana Arifah</string>
 </resources>
