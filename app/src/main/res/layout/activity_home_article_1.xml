@@ -12,7 +12,9 @@
         android:layout_height="250dp"
         android:layout_marginTop="-2sp"
         android:layout_gravity="center_horizontal"
-        app:srcCompat="@drawable/home_article_1" />
+        app:srcCompat="@drawable/home_article_1"
+        android:contentDescription="@string/art1_SubTitle"
+        />
 
     <TextView
         android:id="@+id/art1_text1"
@@ -59,7 +61,8 @@
         app:srcCompat="@drawable/account_circle"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="215sp"
-        android:layout_marginRight="40sp"
+        android:layout_marginEnd="40sp"
+        android:contentDescription="@string/art1_title"
         />
 
     <TextView
@@ -71,7 +74,7 @@
         android:fontFamily="@font/poppins"
         android:text="@string/art1_author"
         android:textColor="@color/white"
-        android:layout_marginLeft="8sp"
+        android:layout_marginStart="8sp"
         android:textSize="10sp"
         />
 
@@ -79,15 +82,38 @@
         android:id="@+id/art1_option"
         android:layout_width="30dp"
         android:layout_height="30dp"
-        android:layout_marginLeft="370sp"
+        android:layout_marginStart="370sp"
         android:layout_marginTop="17sp"
-        app:srcCompat="@drawable/ellypsis_vertical" />
+        app:srcCompat="@drawable/ellypsis_vertical"
+        android:contentDescription="@string/art1_title"
+        />
 
     <VideoView
         android:id="@+id/videoView"
         android:layout_width="320dp"
         android:layout_height="180dp"
         android:layout_gravity="center"
-        android:layout_marginTop="110sp"
+        android:layout_marginTop="115sp"
+        />
+
+    <ImageView
+        android:id="@+id/backButton"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/back_button"
+        android:layout_marginStart="15sp"
+        android:layout_marginTop="17sp"
+        android:contentDescription="@string/art1_title"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/homepage"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="21sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_medium"
         />
 </FrameLayout>

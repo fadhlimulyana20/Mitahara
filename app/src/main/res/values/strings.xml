@@ -29,7 +29,23 @@
         <br>often think of “a diet” as a specific weight loss plan, but</br>
         <br>diet simply refers to the types and amounts of food a</br>
         <br>person eats.</br></string>
+
+    <!-- Article 1 -->
     <string name="art1_title">HOW TO FOLLOW A HEALTHFUL DIET</string>
     <string name="art1_SubTitle">Food and Beverage</string>
     <string name="art1_author">Luthfiana Arifah</string>
+    <string name="homepage">Home</string>
+    <string name="timeThumb1">8 min</string>
+
+    <!-- Article 2 -->
+    <string name="art2_title">SPORTS CAN Make YOU A BETTER</string>
+    <string name="art2_SubTitle">Sport and Workout</string>
+    <string name="timeThumb2">4 min</string>
+
+
+    <!-- DAILY CALORIES BOX -->
+    <!-- TODO: HUBUNGKAN KUANTITAS DAILY KALORI LEWAT DATA YANG DIINPUT USER SAAT REGISTER -->
+    <string name="dailycaloriesprefix">Your daily calories limit</string>
+    <string name="dailycaloriesvalue">4000 kCal</string>
+
 </resources>

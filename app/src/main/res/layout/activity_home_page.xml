@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomePage">
+
+
+    <ImageView
+        android:id="@+id/dailycaloriesbox"
+        android:layout_width="350dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20sp"
+        android:contentDescription="@string/homepage"
+        app:srcCompat="@drawable/dailycaloriesbox"
+        />
+
+    <TextView
+        android:id="@+id/dailycaloriesprefix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47sp"
+        android:layout_marginStart="50sp"
+        android:text="@string/dailycaloriesprefix"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:id="@+id/dailycaloriesvalue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="47sp"
+        android:layout_marginStart="285sp"
+        android:text="@string/dailycaloriesvalue"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="#FC696E "
+        />
+
+    <ImageView
+        android:id="@+id/imgThumb1"
+        android:layout_width="350dp"
+        android:layout_height="221dp"
+        app:srcCompat="@drawable/home_thumb1"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="90sp"
+        android:contentDescription="@string/homepage"
+        />
+
+    <TextView
+        android:id="@+id/subTitleThumb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/art1_SubTitle"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="310sp"
+        android:layout_marginStart="35sp"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/titleThumb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/art1_title"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_marginTop="329sp"
+        android:layout_marginStart="35sp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/timeThumb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/timeThumb1"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="310sp"
+        android:layout_marginStart="335sp"
+        android:textSize="12sp"
+        />
+
+    <ImageView
+        android:id="@+id/timericon1"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="315sp"
+        android:layout_marginTop="313sp"
+        android:contentDescription="@string/timeThumb1"
+        app:srcCompat="@drawable/timer" />
+
+    <ImageView
+        android:id="@+id/imgThumb2"
+        android:layout_width="350dp"
+        android:layout_height="221dp"
+        app:srcCompat="@drawable/home_thumb2"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="360sp"
+        android:contentDescription="@string/homepage"
+        />
+
+    <TextView
+        android:id="@+id/subTitleThumb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/art2_SubTitle"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="580sp"
+        android:layout_marginStart="35sp"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        />
+
+    <TextView
+        android:id="@+id/titleThumb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/art2_title"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_marginTop="599sp"
+        android:layout_marginStart="35sp"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        />
+
+    <TextView
+        android:id="@+id/timeThumb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/timeThumb2"
+        android:fontFamily="@font/poppins"
+        android:layout_marginTop="580sp"
+        android:layout_marginStart="335sp"
+        android:textSize="12sp"
+        />
+
+    <ImageView
+        android:id="@+id/timericon2"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:layout_marginStart="315sp"
+        android:layout_marginTop="583sp"
+        android:contentDescription="@string/timeThumb2"
+        app:srcCompat="@drawable/timer" />
+
+
+
+</FrameLayout>
