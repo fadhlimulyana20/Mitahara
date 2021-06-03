@@ -48,4 +48,11 @@
     <string name="dailycaloriesprefix">Your daily calories limit</string>
     <string name="dailycaloriesvalue">4000 kCal</string>
 
+    <string name="You_Can">You Can</string>
+    <string name="Want_to_diet">Want To Diet More Effectively? It’s<br>A Long Tough Road, so We’ll help You Out </br></string>
+    <string name="Start_now">Start Now</string>
+    <string name="Get_your_dream">Get Your Dream Body With The Most<br>Comfortable Diet For You </br></string>
+    <string name="Create_your_acc">Create Your Account</string>
+    <string name="next">Next</string>
+    <string name="action_sign_up_short">Sign up</string>
 </resources>

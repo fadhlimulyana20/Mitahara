@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/welcome3_image"
+        android:layout_width="325dp"
+        android:layout_height="350dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="90sp"
+        app:srcCompat="@drawable/welcome3"
+        android:contentDescription="@string/Start_now"
+
+        />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="300dp"
+        app:srcCompat="@drawable/dot3"
+        android:contentDescription="@string/welcometxt"
+
+        />
+
+    <TextView
+        android:id="@+id/You_Can"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Start_now"
+        android:fontFamily="@font/poppins_bold"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="480sp"
+        android:layout_marginEnd="90sp"
+
+        />
+
+    <TextView
+        android:id="@+id/want_to"
+        android:layout_width="304dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="520sp"
+        android:fontFamily="@font/poppins"
+        android:text="@string/Get_your_dream"
+        android:textColor="#000000"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/next_signup"
+        android:fontFamily="@font/poppins_bold"
+        android:layout_width="140dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="260dp"
+        android:layout_marginEnd="75dp"
+        android:text="@string/action_sign_up_short"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FC696E"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/next_signin"
+        android:fontFamily="@font/poppins_bold"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="140dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="260dp"
+        android:layout_marginStart="75dp"
+        android:text="@string/action_sign_in_short"
+        android:textColor="#000000"
+        android:backgroundTint="#FFFFFF"
+        android:textSize="18sp"
+        />
+
+</FrameLayout>
