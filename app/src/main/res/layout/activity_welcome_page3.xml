@@ -7,10 +7,10 @@
 
     <ImageView
         android:id="@+id/welcome3_image"
-        android:layout_width="325dp"
-        android:layout_height="350dp"
+        android:layout_width="305dp"
+        android:layout_height="300dp"
         android:layout_gravity="center"
-        android:layout_marginBottom="90sp"
+        android:layout_marginBottom="72sp"
         app:srcCompat="@drawable/welcome3"
         android:contentDescription="@string/Start_now"
 
@@ -46,11 +46,11 @@
         android:layout_width="304dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="520sp"
+        android:layout_marginTop="521sp"
         android:fontFamily="@font/poppins"
         android:text="@string/Get_your_dream"
         android:textColor="#000000"
-        android:textSize="15sp" />
+        android:textSize="13sp" />
 
     <Button
         android:id="@+id/next_signup"
@@ -59,7 +59,7 @@
         android:layout_height="61dp"
         android:layout_gravity="center"
         android:layout_marginTop="260dp"
-        android:layout_marginEnd="75dp"
+        android:layout_marginEnd="79dp"
         android:text="@string/action_sign_up_short"
         android:textColor="#FFFFFF"
         android:backgroundTint="#FC696E"
@@ -74,7 +74,7 @@
         android:layout_height="61dp"
         android:layout_gravity="center"
         android:layout_marginTop="260dp"
-        android:layout_marginStart="75dp"
+        android:layout_marginStart="79dp"
         android:text="@string/action_sign_in_short"
         android:textColor="#000000"
         android:backgroundTint="#FFFFFF"

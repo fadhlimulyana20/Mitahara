@@ -7,10 +7,10 @@
 
     <ImageView
         android:id="@+id/welcome2_image"
-        android:layout_width="325dp"
-        android:layout_height="350dp"
+        android:layout_width="305dp"
+        android:layout_height="300dp"
         android:layout_gravity="center"
-        android:layout_marginBottom="90sp"
+        android:layout_marginBottom="72sp"
         app:srcCompat="@drawable/welcome2"
         android:contentDescription="@string/You_Can"
 
@@ -37,7 +37,7 @@
         android:textSize="24sp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="480sp"
-        android:layout_marginEnd="100sp"
+        android:layout_marginEnd="110sp"
 
         />
     <TextView
@@ -47,10 +47,10 @@
         android:text="@string/Want_to_diet"
         android:fontFamily="@font/poppins"
         android:textColor="#000000"
-        android:textSize="15sp"
+        android:textSize="13sp"
         android:layout_gravity="center_horizontal"
-        android:layout_marginTop="520sp"
-
+        android:layout_marginTop="521sp"
+        android:layout_marginEnd="29sp"
         />
 
     <Button
