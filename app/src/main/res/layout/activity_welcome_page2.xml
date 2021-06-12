@@ -23,7 +23,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="300dp"
         app:srcCompat="@drawable/dot2"
-        android:contentDescription="@string/welcometxt"
+        android:contentDescription="@string/welcome"
 
         />
 

@@ -10,13 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mitahara">
 
-        <activity android:name=".HomePage"></activity>
+        <activity android:name=".HomePage" />
         <activity android:name=".home_article_1" />
         <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
 
-        <activity android:name=".welcome_page"></activity>
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".welcome_page" />
         <activity android:name=".create_new_password" />
-        <activity android:name=".MainActivity2" />
         <activity android:name=".reset_pass_verif" />
         <activity android:name=".reset_password" />
         <activity
@@ -24,19 +29,12 @@
             android:label="@string/title_activity_signin" />
         <activity android:name=".MainActivity">
 
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
         </activity>
-        <activity android:name=".create_new_password" />
-        <activity android:name=".reset_pass_verif" />
-        <activity android:name=".reset_password" />
-        <activity
-            android:name=".ui.login.signin"
-            android:label="@string/title_activity_signin" />
-        <activity android:name=".MainActivity" />
 
         <meta-data
             android:name="preloaded_fonts"

@@ -1,39 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".welcome_page">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".onboarding.screen.FirstScreen">
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="70dp"
         android:layout_height="70dp"
-        android:layout_gravity="center"
-        android:layout_marginBottom="300dp"
-        app:srcCompat="@drawable/dot1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="40dp"
+        android:src="@drawable/dot1"
         android:contentDescription="@string/welcome"
 
         />
 
     <TextView
         android:id="@+id/welcome_txt"
-        android:layout_width="295dp"
-        android:layout_height="44dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="140sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:text="@string/welcome"
         android:fontFamily="@font/poppins"
-        android:textAlignment="center"
         android:textSize="15sp"
         android:textColor="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.722"
+        app:layout_constraintTop_toBottomOf="@id/mitahara_logo_image"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.287"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="80dp"
 
         />
 
@@ -42,9 +39,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@drawable/mitahara_logo"
-        tools:layout_editor_absoluteX="33dp"
-        tools:layout_editor_absoluteY="364dp"
-        android:layout_gravity="center"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent
+"
         android:layout_marginBottom="50sp"
         android:contentDescription="@string/welcome"
 
@@ -55,12 +54,14 @@
         android:fontFamily="@font/poppins_bold"
         android:layout_width="345dp"
         android:layout_height="61dp"
-        android:layout_gravity="center"
-        android:layout_marginTop="260dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginBottom="40dp"
         android:text="@string/next"
         android:textColor="#FFFFFF"
         android:backgroundTint="#FC696E"
         android:textSize="18sp"
         />
 
-</FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
