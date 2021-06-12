@@ -6,13 +6,13 @@
     android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/welcome2_image"
+        android:id="@+id/welcome3_image"
         android:layout_width="305dp"
         android:layout_height="300dp"
         android:layout_gravity="center"
         android:layout_marginBottom="72sp"
-        app:srcCompat="@drawable/welcome2"
-        android:contentDescription="@string/You_Can"
+        app:srcCompat="@drawable/welcome3"
+        android:contentDescription="@string/Start_now"
 
         />
 
@@ -22,8 +22,8 @@
         android:layout_height="70dp"
         android:layout_gravity="center"
         android:layout_marginBottom="300dp"
-        app:srcCompat="@drawable/dot2"
-        android:contentDescription="@string/welcome"
+        app:srcCompat="@drawable/dot3"
+        android:contentDescription="@string/welcometxt"
 
         />
 
@@ -31,38 +31,53 @@
         android:id="@+id/You_Can"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/You_Can"
+        android:text="@string/Start_now"
         android:fontFamily="@font/poppins_bold"
         android:textColor="#000000"
         android:textSize="24sp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="480sp"
-        android:layout_marginEnd="110sp"
+        android:layout_marginEnd="90sp"
 
         />
+
     <TextView
         android:id="@+id/want_to"
-        android:layout_width="wrap_content"
+        android:layout_width="304dp"
         android:layout_height="wrap_content"
-        android:text="@string/Want_to_diet"
-        android:fontFamily="@font/poppins"
-        android:textColor="#000000"
-        android:textSize="13sp"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="521sp"
-        android:layout_marginEnd="29sp"
-        />
+        android:fontFamily="@font/poppins"
+        android:text="@string/Get_your_dream"
+        android:textColor="#000000"
+        android:textSize="13sp" />
 
     <Button
-        android:id="@+id/next_welcome2"
+        android:id="@+id/next_signup"
         android:fontFamily="@font/poppins_bold"
-        android:layout_width="345dp"
+        android:layout_width="140dp"
         android:layout_height="61dp"
         android:layout_gravity="center"
         android:layout_marginTop="260dp"
-        android:text="@string/next"
+        android:layout_marginEnd="79dp"
+        android:text="@string/action_sign_up_short"
         android:textColor="#FFFFFF"
         android:backgroundTint="#FC696E"
+        android:textSize="18sp"
+        />
+
+    <Button
+        android:id="@+id/next_signin"
+        android:fontFamily="@font/poppins_bold"
+        style="?attr/materialButtonOutlinedStyle"
+        android:layout_width="140dp"
+        android:layout_height="61dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="260dp"
+        android:layout_marginStart="79dp"
+        android:text="@string/action_sign_in_short"
+        android:textColor="#000000"
+        android:backgroundTint="#FFFFFF"
         android:textSize="18sp"
         />
 
