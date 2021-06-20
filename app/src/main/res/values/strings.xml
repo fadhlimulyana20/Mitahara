@@ -57,4 +57,7 @@
     <string name="action_sign_up_short">Sign up</string>
     <string name="welcometxt">A Platform Where You Can Maintain<br>Your Healthiness Easily</br></string>
     <string name="your_daily_calory_limit">Your Daily Calory Limit</string>
+    <string name="workout_article">
+        Regular exercises offer countless benefits. It boosts your immune system, improves your bone health and lowers health risks like heart problem, diabetes and many more life threatening diseases. These are 10 Excercise that you can easily do everyday:
+    </string>
 </resources>
