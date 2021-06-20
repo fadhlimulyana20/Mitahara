@@ -60,4 +60,14 @@
     <string name="workout_article">
         Regular exercises offer countless benefits. It boosts your immune system, improves your bone health and lowers health risks like heart problem, diabetes and many more life threatening diseases. These are 10 Excercise that you can easily do everyday:
     </string>
+    <string name="workout_article_2">
+        Remember, health is wealth. It’s never too late to start! Be determined, take out some time from your busy day and start these simple exercises at home and stay happy and healthy!
+    </string>
+    <string name="workout_list">
+        <li>Jumping Jacks</li>
+        <li>Plank</li>
+        <li>Cross Crunches</li>
+        <li>Side Plank</li>
+        <li>Squats</li>
+    </string>
 </resources>
