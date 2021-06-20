@@ -6,28 +6,41 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import com.kelompok5.mitahara.R
+import com.kelompok5.mitahara.databinding.FragmentViewPagerBinding
+import com.kelompok5.mitahara.onboarding.screen.FirstScreen
+import com.kelompok5.mitahara.onboarding.screen.SecondScreen
+import com.kelompok5.mitahara.onboarding.screen.ThirdScreen
 
-// TODO: Rename parameter arguments, choose names that match
-// the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
-private const val ARG_PARAM1 = "param1"
-private const val ARG_PARAM2 = "param2"
-
-/**
- * A simple [Fragment] subclass.
- * Use the [ViewPagerFragment.newInstance] factory method to
- * create an instance of this fragment.
- */
 class ViewPagerFragment : Fragment() {
+    private var _binding: FragmentViewPagerBinding? = null
+
+    // This property is only valid between onCreateView and
+    // onDestroyView.
+    private val binding get() = _binding!!
+
     override fun onCreateView(
-        inflater: LayoutInflater, container: ViewGroup?,
+        inflater: LayoutInflater,
+        container: ViewGroup?,
         savedInstanceState: Bundle?
-    ): View? {
+    ): View {
         // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_view_pager, container, false)
+        _binding = FragmentViewPagerBinding.inflate(inflater, container, false)
+        val view = binding.root
+//        val view = inflater.inflate(R.layout.fragment_view_pager, container, false)
 
         val fragmentList = arrayListOf<Fragment>(
-
+            FirstScreen(),
+            SecondScreen(),
+            ThirdScreen(),
         )
+
+        val adapter = ViewPagerAdapter(
+            fragmentList,
+            requireActivity().supportFragmentManager,
+            lifecycle
+        )
+
+        binding.viewPager.adapter = adapter
 
         return view
     }

@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mitahara">
 
-        <activity android:name=".AddDietPlanActivity"/>
+<!--        <activity android:name=".AddDietPlanActivity"/>-->
         <activity android:name=".DietPlanDetailActivity" />
         <activity android:name=".HomePage" />
         <activity android:name=".home_article_1" />
@@ -28,7 +28,7 @@
         <activity
             android:name=".ui.login.signin"
             android:label="@string/title_activity_signin" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" />
 
         <meta-data
             android:name="preloaded_fonts"
