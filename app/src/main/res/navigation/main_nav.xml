@@ -24,4 +24,9 @@
         android:name="com.kelompok5.mitahara.ProfileFragment"
         android:label="fragment_profile"
         tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/workoutArticleFragment"
+        android:name="com.kelompok5.mitahara.WorkoutArticleFragment"
+        android:label="fragment_workout_article"
+        tools:layout="@layout/fragment_workout_article" />
 </navigation>

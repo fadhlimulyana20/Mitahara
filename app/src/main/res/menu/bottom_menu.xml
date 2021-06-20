@@ -3,6 +3,6 @@
 
     <item android:title="Home" android:id="@+id/homeFragment" android:icon="@drawable/ic_baseline_home_24" />
     <item android:title="Diet Plan" android:id="@+id/dietPlanFragment" android:icon="@drawable/ic_baseline_fastfood_24"/>
-    <item android:title="Workout" android:id="@+id/workOutFragment" android:icon="@drawable/ic_baseline_sports_24" />
+    <item android:title="Workout" android:id="@+id/workoutArticleFragment" android:icon="@drawable/ic_baseline_sports_24" />
     <item android:title="Profile" android:id="@+id/profileFragment" android:icon="@drawable/ic_baseline_person_24" />
 </menu>

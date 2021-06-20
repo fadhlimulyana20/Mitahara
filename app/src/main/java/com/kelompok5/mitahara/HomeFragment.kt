@@ -1,10 +1,13 @@
 package com.kelompok5.mitahara
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.kelompok5.mitahara.databinding.FragmentHomeBinding
+import com.kelompok5.mitahara.databinding.FragmentProfileBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -29,12 +32,29 @@ class HomeFragment : Fragment() {
         }
     }
 
+    private var _binding: FragmentHomeBinding? = null
+
+    // This property is only valid between onCreateView and
+    // onDestroyView.
+    private val binding get() = _binding!!
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        _binding = FragmentHomeBinding.inflate(inflater, container, false)
+        //return inflater.inflate(R.layout.fragment_home, container, false)
+
+        val img_blog = binding.imgThumb1
+        img_blog.setOnClickListener {
+            val intent = Intent(activity, home_article_1::class.java)
+            startActivity(intent)
+        }
+
+        val view = binding.root
+
+        return view
     }
 
     companion object {

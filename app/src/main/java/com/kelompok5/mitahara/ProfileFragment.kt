@@ -1,10 +1,13 @@
 package com.kelompok5.mitahara
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import com.kelompok5.mitahara.databinding.FragmentProfileBinding
+import com.kelompok5.mitahara.databinding.FragmentViewPagerBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -29,12 +32,29 @@ class ProfileFragment : Fragment() {
         }
     }
 
+    private var _binding: FragmentProfileBinding? = null
+
+    // This property is only valid between onCreateView and
+    // onDestroyView.
+    private val binding get() = _binding!!
+
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_profile, container, false)
+        _binding = FragmentProfileBinding.inflate(inflater, container, false)
+//        return inflater.inflate(R.layout.fragment_profile, container, false)
+        val view = binding.root
+
+        val start_tv4 = binding.textView4
+        start_tv4.setOnClickListener {
+            val intent = Intent(getActivity(), AddDietPlanActivity::class.java)
+            startActivity(intent)
+        }
+
+        return view
+
     }
 
     companion object {

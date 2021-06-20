@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Mitahara">
 
-<!--        <activity android:name=".AddDietPlanActivity"/>-->
+        <activity android:name=".AddDietPlanActivity"/>
         <activity android:name=".DietPlanDetailActivity" />
         <activity android:name=".HomePage" />
         <activity android:name=".home_article_1" />
